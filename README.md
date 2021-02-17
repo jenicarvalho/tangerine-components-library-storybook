@@ -1,9 +1,9 @@
 # Tangerine Components Library
 
 ```bash
-  yarn add library
+  yarn add tangerine-components-library-storybook
 
-  import { Button } from 'library'
+  import { Button } from 'tangerine-components-library-storybook'
 ```
 ---- 
 
