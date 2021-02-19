@@ -1,11 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// this is our material theme
+export { theme } from '../.storybook/preview'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
- 
+// import all components here
+export * from './stories/components/Button'
+export * from './stories/components/TextField'
