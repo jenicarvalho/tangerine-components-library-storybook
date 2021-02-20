@@ -8,6 +8,12 @@
 
 [https://jenicarvalho.github.io/tangerine-components-library-storybook/](https://jenicarvalho.github.io/tangerine-components-library-storybook/)
 
+## To run this repository
+```bash
+  git clone
+  yarn install
+  yarn storybook
+```
 ## To install
 ```bash
   yarn add tangerine-components-library-storybook
