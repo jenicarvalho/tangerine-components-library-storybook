@@ -6,9 +6,10 @@
 
 To use this package, add a file named .npmrc on your project's root, with the next content:
 
-registry=https://npm.pkg.github.com/jenicarvalho
+```registry=https://npm.pkg.github.com/jenicarvalho```
 
-Then execute npm install @jenicarvalho/tangerine-components-library-storybook@0.1.21
+Then execute 
+```npm install @jenicarvalho/tangerine-components-library-storybook@0.1.21```
 
 **Visit our library here:**
 
