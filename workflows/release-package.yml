@@ -8,7 +8,7 @@ name: Create Release and Publish
 
 jobs:
   build:
-    name: Create Release and publish
+    name: Create Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -23,10 +23,11 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - Changing tag
+            - Remove npm ci
           draft: false
           prerelease: false
   publish-gpr:
+    name: Publish
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -35,7 +36,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
