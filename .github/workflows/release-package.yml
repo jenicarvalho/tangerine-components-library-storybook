@@ -23,7 +23,7 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - Trying to make everything in a single file
+            - Updated destination repo in package.json and removed .npmrc file
           draft: false
           prerelease: false
   publish-gpr:
