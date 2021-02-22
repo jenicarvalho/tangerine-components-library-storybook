@@ -23,7 +23,7 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - Uploading actions to release and publish package on push
+            - Changing tag
           draft: false
           prerelease: false
   publish-gpr:
