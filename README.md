@@ -2,11 +2,26 @@
 
 **Visit our package here:**
 
-[https://www.npmjs.com/package/tangerine-components-library-storybook](https://www.npmjs.com/package/tangerine-components-library-storybook)
+[https://github.com/jenicarvalho/tangerine-components-library-storybook/packages/634047](https://github.com/jenicarvalho/tangerine-components-library-storybook/packages/634047)
+
+To use this package, add a file named .npmrc on your project's root, with the next content:
+
+registry=https://npm.pkg.github.com/jenicarvalho
+
+Then execute npm install @jenicarvalho/tangerine-components-library-storybook@0.1.21
 
 **Visit our library here:**
 
 [https://jenicarvalho.github.io/tangerine-components-library-storybook/](https://jenicarvalho.github.io/tangerine-components-library-storybook/)
+
+---- 
+## To publish library updates
+
+```Update version in package.json
+  push changes.
+  create tag in format v_# of version. Example v_1.0.21
+  push tag to reposiory.
+```
 
 ## To run this repository
 ```bash
