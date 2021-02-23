@@ -23,7 +23,7 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - Updated destination repo in package.json and removed .npmrc file
+            - Added Avatar component
           draft: false
           prerelease: false
   publish-gpr:
