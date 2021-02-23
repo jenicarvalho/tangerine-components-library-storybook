@@ -11,4 +11,15 @@ export default {
 
 const Template: Story<AvatarProps> = (args) => <Avatar {...args} />;
 
-
+export const Circle = Template.bind({});
+Circle.args = {
+  color: 'primary',
+  children: 'SM',
+  variant: 'circle'
+};
+export const Square = Template.bind({});
+Square.args = {
+  color: 'secondary',
+  children: 'JC',
+  variant: 'square'
+};

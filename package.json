@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/jenicarvalho/tangerine-components-library-storybook.git"
   },
-  "version": "0.1.22",
+  "version": "0.1.23",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/lab": "^4.0.0-alpha.57",
