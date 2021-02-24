@@ -36,6 +36,7 @@ Then execute
 ```
 
 ## To use
+Follow steps described on [https://docs.google.com/document/d/1bZe-g0FmxtVrDJYdb25FFrEGBS4Gg73pOK31g8FBcRQ/edit?usp=sharing](https://docs.google.com/document/d/1bZe-g0FmxtVrDJYdb25FFrEGBS4Gg73pOK31g8FBcRQ/edit?usp=sharing)
 ```js
   import { Button } from 'tangerine-components-library-storybook'
 
