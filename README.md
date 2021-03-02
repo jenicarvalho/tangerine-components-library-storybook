@@ -18,10 +18,15 @@ Then execute
 ---- 
 ## To publish library updates
 
-```Update version in package.json
-  push changes.
-  create tag in format v_# of version. Example v_1.0.21
-  push tag to reposiory.
+- Update version in package.json ("version": "0.1.xx")
+- git commit and git push the changes
+- create a new tag
+- push the tag
+
+### To create and publish a tag
+```
+  git tag -a v0.1.xx -m "your changes message"
+  git push --tags
 ```
 
 ## To run this repository

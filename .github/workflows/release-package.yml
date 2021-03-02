@@ -23,7 +23,6 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - Added Avatar component
           draft: false
           prerelease: false
   publish-gpr:
