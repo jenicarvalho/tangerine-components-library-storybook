@@ -9,17 +9,10 @@ export const theme = createMuiTheme({
     },
   },
   typography: {
-    h1: { fontFamily: 'Circular Bold, sans-serif' },
-    h2: { fontFamily: 'Circular Bold, sans-serif' },
-    h3: { fontFamily: 'Circular Bold, sans-serif' },
-    h4: { fontFamily: 'Circular Bold, sans-serif' },
-    h5: { fontFamily: 'Circular Bold, sans-serif' },
-    h6: { fontFamily: 'Circular Bold, sans-serif' },
-    subtitle1: { fontFamily: 'Circular Bold, sans-serif' },
-    subtitle2: { fontFamily: 'Circular Bold, sans-serif' },
-    body1: { fontFamily: 'Circular Book, sans-serif' },
-    body2: { fontFamily: 'Circular Book, sans-serif' },
-    fontFamily: 'Circular Bold, sans-serif',
+    fontFamily: 'Circular, Arial',
+    body2: {
+        fontFamily: 'Noto Serif'
+    },
     button: {
       fontSize: 14,
       fontWeight: 400,
@@ -41,13 +34,26 @@ export const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      light: '#c2dbfe',
-      main: '#1273f8',
-      dark: '#0557d5',
+      main: "#1273FA"
     },
     secondary: {
-      main: '#fff'
+      main: "#FE971E"
+  },
+    error: {
+      main: "#FF5E4F"
     },
+    info: {
+      main: "#28ABFA"
+    },
+    success: {
+      main: "#64CD28"
+    },
+    warning: {
+      main: "#FE971E"
+    },
+    neutral: {
+      main: "#E0E0E0"
+    }
   }
 });
  
